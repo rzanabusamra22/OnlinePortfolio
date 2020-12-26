@@ -1,8 +1,32 @@
 {% load static %}
 
-<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Razan Abusamra</title>
+	<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+	<script src="{% static '/javascript/main.js'  %}" type="text/javascript"></script>  
+</head>
+<body>
 
-<h3>hello world</h3>
+    <h3>hello world</h3>
+    <img id="profile-pic" src="{% static 'images/ProfilePic.jpg' %}" >
+    <!-- <h1>TIK TAC TOE</h1>
+	<div class="container" id="main">
+		<span id=turn>Play</span>
+		<div class="box" id="box1"></div>
+		<div class="box" id="box2"></div>
+		<div class="box" id="box3"></div>
+		<div class="box" id="box4"></div>
+		<div class="box" id="box5"></div>
+		<div class="box" id="box6"></div>
+		<div class="box" id="box7"></div>
+		<div class="box" id="box8"></div>
+		<div class="box" id="box9"></div>
+
+	</div>
+	<button onclick="replay()">Play Again</button> -->
 
 
-<img id="profile-pic" src="{% static 'images/ProfilePic.jpg' %}" >
+</body>
+</html>
