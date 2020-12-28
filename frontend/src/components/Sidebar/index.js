@@ -9,10 +9,10 @@ function Sidebar({isOpen,toggle}) {
            </Icon>
            <SidebarWrapper>
              <SidebarMenu>
-               <SidebarLink to="about">About</SidebarLink>
-               <SidebarLink to="skills">Skills</SidebarLink>
-               <SidebarLink to="trainings">Trainings</SidebarLink>
-               <SidebarLink to="contact">Contact</SidebarLink>
+               <SidebarLink to="about" onClick={toggle}>About</SidebarLink>
+               <SidebarLink to="skills" onClick={toggle}>Skills</SidebarLink>
+               <SidebarLink to="trainings" onClick={toggle}>Trainings</SidebarLink>
+               <SidebarLink to="contact" onClick={toggle}>Contact</SidebarLink>
              </SidebarMenu>
 
            </SidebarWrapper>
