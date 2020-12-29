@@ -5,20 +5,11 @@ import '../Style.css'
 const contactSection = ({id}) => {
     return (
         <>
-        <InfoContainer id={id}>
-            <h1>hello</h1>
-           {/* <InfoWrapper>
-               <InfoRow>
-                   <Column1>
-                   <TextWrapper>
-                       <TopLine>Top Line</TopLine>
-                       <Heading>Headding</Heading>
-                       <Subtitle>Sibtitle</Subtitle>           
-                   </TextWrapper>
-                   </Column1>
-               </InfoRow>
-           </InfoWrapper> */}
-        </InfoContainer>
+            <main class='l-main' id='contact'>
+                 <section class='contact' >
+                   contact
+                 </section>
+            </main>
         </>
     )
 }

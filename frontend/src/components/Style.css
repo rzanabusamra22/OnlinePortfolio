@@ -1,6 +1,7 @@
 :root{
     /* Fixme */
-    --header-height:3rem;
+    /* was 3rem */
+    --header-height:0rem;
     --nav-width: 324px;
     /* Font Weight */
     --font-medium: 500;
