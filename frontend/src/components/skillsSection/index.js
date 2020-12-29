@@ -1,10 +1,11 @@
 import React from 'react'
 import {InfoContainer,InfoContainer1} from './skillsElements'
-// ,InfoWrapper,InfoRow,Column1,TextWrapper,TopLine,Heading,Subtitle
+import './skill.css'
 const skillsSection = ({id}) => {
     return (
         <>
         <InfoContainer id={id}>
+            <h1>hello</h1>
            {/* <InfoWrapper>
                <InfoRow>
                    <Column1>

@@ -2,10 +2,6 @@
 import styled from 'styled-components';
 
 
-export const homeObjOne = {
-  id:"about"
-};
-
 export const InfoContainer =styled.div`
   background-color: red;
   padding: 800px 0;

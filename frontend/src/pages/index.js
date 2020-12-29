@@ -8,11 +8,11 @@ import SkillsSection from '../components/skillsSection/index'
 import TrainingsSection from '../components/trainingsSection/index'
 import ContactSection from '../components/contactSection/index'
 
-import {homeObj} from '../components/HeroSection/HeroElements'
-import {homeObjOne} from '../components/aboutSection/aboutElements'
-import {homeObjTwo} from '../components/skillsSection/skillsElements'
-import {homeObjThree} from '../components/trainingsSection/trainingsElements.js'
-import {homeObjFour} from '../components/contactSection/contactElements'
+import {homeObj} from '../components/Scroll'
+import {homeObjOne} from '../components/Scroll'
+import {homeObjTwo} from '../components/Scroll'
+import {homeObjThree} from '../components/Scroll'
+import {homeObjFour} from '../components/Scroll'
 
 
 const Home = () => {

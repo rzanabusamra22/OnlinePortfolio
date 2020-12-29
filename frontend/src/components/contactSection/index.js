@@ -1,10 +1,11 @@
 import React from 'react'
-import {InfoContainer,InfoContainer1} from './contactElements'
-// ,InfoWrapper,InfoRow,Column1,TextWrapper,TopLine,Heading,Subtitle
+import {InfoContainer} from './contactElements'
+import './contact.css'
 const contactSection = ({id}) => {
     return (
         <>
         <InfoContainer id={id}>
+            <h1>hello</h1>
            {/* <InfoWrapper>
                <InfoRow>
                    <Column1>

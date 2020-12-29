@@ -1,9 +1,5 @@
 import styled from 'styled-components';
 
-export const homeObj = {
-  id:"home"
-};
-
 export const HeroContainer = styled.div`
   background:#0c0c0c;
  display:flex;
@@ -14,7 +10,6 @@ export const HeroContainer = styled.div`
  position: relative;
  z-index: 1;
 `
-
 
 export const HeroBg = styled.div`
  position:absolute;

@@ -1,10 +1,12 @@
 import React from 'react'
 import {InfoContainer,InfoContainer1} from './aboutElements'
-// ,InfoWrapper,InfoRow,Column1,TextWrapper,TopLine,Heading,Subtitle
+import './about.css'
+
 const aboutSection = ({id}) => {
     return (
         <>
         <InfoContainer id={id}>
+            <h1>Green</h1>
            {/* <InfoWrapper>
                <InfoRow>
                    <Column1>

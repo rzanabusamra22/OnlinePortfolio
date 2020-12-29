@@ -1,10 +1,12 @@
 import React from 'react'
 import {InfoContainer,InfoContainer1} from './trainingsElements'
-// ,InfoWrapper,InfoRow,Column1,TextWrapper,TopLine,Heading,Subtitle
+import './train.css'
+
 const traningsSection = ({id}) => {
     return (
         <>
         <InfoContainer id={id}>
+            <h1>hello</h1>
            {/* <InfoWrapper>
                <InfoRow>
                    <Column1>
