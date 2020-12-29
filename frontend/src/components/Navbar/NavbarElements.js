@@ -3,11 +3,11 @@ import {Link as LinkR} from 'react-router-dom'
 import {Link as LinkS} from 'react-scroll'
 
 
-//margin-top:-80px;
+
 export const Nav =styled.nav`
   background: #000;
   height:80 px;
-  
+  margin-top:-80px;
   display: flex;
   justify-content: center;
   align-items: center;
