@@ -1,7 +1,7 @@
 import React from 'react'
-import {InfoContainer,InfoContainer1} from './infoElements'
+import {InfoContainer,InfoContainer1} from './aboutElements'
 // ,InfoWrapper,InfoRow,Column1,TextWrapper,TopLine,Heading,Subtitle
-const infoSection = ({id}) => {
+const aboutSection = ({id}) => {
     return (
         <>
         <InfoContainer id={id}>
@@ -21,4 +21,4 @@ const infoSection = ({id}) => {
     )
 }
 
-export default infoSection
+export default aboutSection

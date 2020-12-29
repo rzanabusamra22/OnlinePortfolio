@@ -1,6 +1,6 @@
 import React from 'react'
 import {HeroContainer,HeroBg,HeroContent,HeroH1,HeroP,HeroBtnWrapper,Button} from './HeroElements'
-import {ButtonS,ButtonX} from '../ButtonElement'
+import {ButtonX} from '../ButtonElement'
 const HeroSection = ({id}) => {
     return (
         <HeroContainer id={id}>
@@ -21,9 +21,6 @@ const HeroSection = ({id}) => {
                    <ButtonX primary={true} dark={true}>
                        Download Resume 
                    </ButtonX>
-                   <ButtonS primary={true} dark={true}>
-                       Contact Me 
-                   </ButtonS>
                 </HeroBtnWrapper>
             </HeroContent>
         </HeroContainer>
