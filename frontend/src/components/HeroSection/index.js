@@ -1,7 +1,8 @@
 import React from 'react'
 import {HeroContainer,HeroBg,HeroContent,HeroH1,HeroP,HeroBtnWrapper,Button} from './HeroElements'
 import {ButtonX} from '../ButtonElement'
-import './hero.css'
+import '../Style.css'
+
 const HeroSection = ({id}) => {
     return (
         <HeroContainer id={id}>

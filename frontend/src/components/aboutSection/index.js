@@ -1,6 +1,6 @@
 import React from 'react'
 import {InfoContainer,InfoContainer1} from './aboutElements'
-import './about.css'
+import '../Style.css'
 
 const aboutSection = ({id}) => {
     return (

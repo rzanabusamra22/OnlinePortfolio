@@ -1,6 +1,7 @@
 import React from 'react'
 import {InfoContainer} from './contactElements'
-import './contact.css'
+import '../Style.css'
+
 const contactSection = ({id}) => {
     return (
         <>

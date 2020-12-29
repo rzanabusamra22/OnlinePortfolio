@@ -1,6 +1,6 @@
 import React from 'react'
 import {InfoContainer,InfoContainer1} from './trainingsElements'
-import './train.css'
+import '../Style.css'
 
 const traningsSection = ({id}) => {
     return (

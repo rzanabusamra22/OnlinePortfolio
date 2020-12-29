@@ -1,6 +1,7 @@
 import React from 'react'
 import {InfoContainer,InfoContainer1} from './skillsElements'
-import './skill.css'
+import '../Style.css'
+
 const skillsSection = ({id}) => {
     return (
         <>
