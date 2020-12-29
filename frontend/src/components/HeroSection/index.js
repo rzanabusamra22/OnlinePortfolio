@@ -3,33 +3,48 @@ import {HeroContainer,HeroBg,HeroContent,HeroH1,HeroP,HeroBtnWrapper,Button} fro
 import {ButtonX} from '../ButtonElement'
 import '../Style.css'
 
-const HeroSection = ({id}) => {
-    return (
-        <HeroContainer id={id}>
-            <HeroBg>
-            </HeroBg>
-            <HeroContent>
-                {/* Your Picture */}
-                 <HeroH1>
-                  Razan Abusamra 
-                 </HeroH1>
-                 <HeroP>
-                  Fulltime Dreamer 
-                 </HeroP>
-                {/* We need buttons for linkedin - github  */}
-
-                {/* Download my resume button  */}
-                <HeroBtnWrapper>
-                   <ButtonX primary={true} dark={true}>
-                       Download Resume 
-                   </ButtonX>
-                </HeroBtnWrapper>
-            </HeroContent>
-        </HeroContainer>
+const HeroSection = () => {
+    return (  
+            <main class='l-main'>
+                 <section class='home' id='home'>
+                      <div className='home__container bd-grid'>
+                          <div class='home__data'>
+                              <div class='home__img'>
+                                  {/* picture */}
+                                  <img src='' alt=''>
+                                  </img>
+                              </div>
+                              <h1 class='home__title'>Razan Abusamra</h1>
+                              <span class='home__profession'>Fulltime Dreamer</span>
+                              <div class='home__social'>
+                                  <a href='https://www.linkedin.com/in/razan-abu-samra/' class='home__social-link'><span class="iconify" data-icon="bx-bxl-linkedin" data-inline="false"></span></a>
+                                  <a href='https://github.com/rzanabusamra22' class='home__social-link'><span class="iconify" data-icon="teenyicons:github-outline" data-inline="false"></span></a>
+                              </div>
+                               <a href='#' download='' class='button'>Download Resume</a>
+                          </div>
+                      </div>
+                 </section>
+            </main>
     )
 }
 
 export default HeroSection
 
 
-                
+{/* <HeroBg>
+</HeroBg> */}
+{/* <HeroContent>
+    {/* Your Picture */}
+    //  <HeroH1>
+    //   Razan Abusamra 
+    //  </HeroH1>
+    //  <HeroP>
+    //   Fulltime Dreamer 
+    //  </HeroP> */}
+    {/* We need buttons for linkedin - github  */}
+
+    {/* Download my resume button  */}
+    {/* <HeroBtnWrapper>
+       
+    </HeroBtnWrapper> */}
+// </HeroContent>
