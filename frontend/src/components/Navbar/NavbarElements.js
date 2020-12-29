@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import {Link as LinkS} from 'react-scroll'
 
 
-
 export const Nav =styled.nav`
   background: #000;
   height:80 px;
@@ -78,7 +77,7 @@ export const NavLinks = styled(LinkS)`
   height:100%;
   cursor: pointer;
   &:active {
-    border-bottom: 3px solid #01bf71;
+    border-bottom: 3px solid #cc4b2c;
   }
 `
 
