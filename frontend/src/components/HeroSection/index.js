@@ -1,6 +1,4 @@
 import React from 'react'
-import {HeroContainer,HeroBg,HeroContent,HeroH1,HeroP,HeroBtnWrapper,Button} from './HeroElements'
-import {ButtonX} from '../ButtonElement'
 import '../Style.css'
 
 const HeroSection = () => {
