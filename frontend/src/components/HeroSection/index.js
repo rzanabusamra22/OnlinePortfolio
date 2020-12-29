@@ -5,8 +5,8 @@ import '../Style.css'
 
 const HeroSection = () => {
     return (  
-            <main class='l-main'>
-                 <section class='home' id='home'>
+            <main class='l-main' id='home'>
+                 <section class='home' >
                       <div className='home__container bd-grid'>
                           <div class='home__data'>
                               <div class='home__img'>
