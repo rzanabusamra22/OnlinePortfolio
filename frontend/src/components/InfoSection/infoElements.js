@@ -1,1 +1,10 @@
-// InfoContainer,InfoWrapper,InfoRow,Column1,TextWrapper,TopLine,Heading,Subtitle
+// ,InfoRow,Column1,TextWrapper,TopLine,Heading,Subtitle
+import styled from 'styled-components';
+
+export const InfoContainer =styled.div`
+  background-color: red;
+  padding: 800px 0;
+  @media screen and (max-width:768px) {
+      padding: 800px 0;
+  } 
+`

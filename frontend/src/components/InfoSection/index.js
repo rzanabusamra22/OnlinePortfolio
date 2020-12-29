@@ -1,11 +1,11 @@
 import React from 'react'
-import {InfoContainer,InfoWrapper,InfoRow,Column1,TextWrapper,TopLine,Heading,Subtitle} from './infoElements'
-
-const infoSection = () => {
+import {InfoContainer,InfoContainer1} from './infoElements'
+// ,InfoWrapper,InfoRow,Column1,TextWrapper,TopLine,Heading,Subtitle
+const infoSection = ({id}) => {
     return (
         <>
         <InfoContainer id={id}>
-           <InfoWrapper>
+           {/* <InfoWrapper>
                <InfoRow>
                    <Column1>
                    <TextWrapper>
@@ -15,9 +15,8 @@ const infoSection = () => {
                    </TextWrapper>
                    </Column1>
                </InfoRow>
-           </InfoWrapper>
+           </InfoWrapper> */}
         </InfoContainer>
-         
         </>
     )
 }
