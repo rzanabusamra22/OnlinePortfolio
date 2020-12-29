@@ -1,9 +1,9 @@
 import React from 'react'
 import {HeroContainer,HeroBg,HeroContent,HeroH1,HeroP,HeroBtnWrapper,Button} from './HeroElements'
 import {ButtonS,ButtonX} from '../ButtonElement'
-const HeroSection = () => {
+const HeroSection = ({id}) => {
     return (
-        <HeroContainer id='home'>
+        <HeroContainer id={id}>
             <HeroBg>
             </HeroBg>
             <HeroContent>
