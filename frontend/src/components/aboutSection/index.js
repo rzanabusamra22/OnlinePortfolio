@@ -12,10 +12,51 @@ const aboutSection = () => {
                          <div class="about__container bd-grid">
                              <div class="about__data">
                                  <p class="about__description">
-                                 The most effective people are those who understand their strengths. 
-                                 Here are my top 5: Futuristic – Empathy – Discipline – Significance – Responsibility.
-                                 (As a result of-The Clifton Strengths Assessment-Gallup)
+                                    about statment about statment about statment about statment about statment about statment about statment about statment about statment about statment about statment about statment about statment about statment about statment about statment 
                                  </p>
+                             </div>
+                             <div class="about__information">
+                                 <h3 class="about__information-title">Information</h3>
+                                 <div class="about__information-data">
+                                     <i class="about__information-icon"><span class="iconify" data-icon="ant-design:user-outlined" data-inline="false"></span></i> 
+                                     <span>Razan Abusamra</span> 
+                                 </div>
+
+                                 <div class="about__information-data">
+                                     <i class="about__information-icon"><span class="iconify" data-icon="bx:bx-phone" data-inline="false"></span></i> 
+                                     <span>+970-597476792</span> 
+                                 </div>
+
+                                 <div class="about__information-data">
+                                     <i class="about__information-icon"><span class="iconify" data-icon="cil:envelope-letter" data-inline="false"></span></i> 
+                                     <span>RzanAbusamra@gmail.com</span> 
+                                 </div>
+                                 <div class="about__information">
+                                 <h3 class="about__information-title">Experience</h3>
+                                    <div class="about__information-data">
+                                        <i class="about__information-icon"><span class="iconify" data-icon="grommet-icons:location-pin" data-inline="false"></span></i> 
+                                        <div>
+                                            <span class="about__information-subtitle">Year:  </span>
+                                            <span class="about__information-subtitle-small">Experience Desription1</span>
+                                        </div>
+                                    </div>
+                                    <div class="about__information-data">
+                                        <i class="about__information-icon"><span class="iconify" data-icon="grommet-icons:location-pin" data-inline="false"></span></i> 
+                                        <div>
+                                            <span class="about__information-subtitle">Year:  </span>
+
+                                            <span class="about__information-subtitle-small">Experience Desription2</span>
+                                        </div>
+                                    </div>
+                                    <div class="about__information-data">
+                                        <i class="about__information-icon"><span class="iconify" data-icon="grommet-icons:location-pin" data-inline="false"></span></i> 
+                                        <div>
+                                            <span class="about__information-subtitle">Year:  </span>
+                                            <span class="about__information-subtitle-small">Experience Desription3</span>
+                                        </div>
+                                    </div>
+                                  
+                                 </div>
                              </div>
                          </div>
                  </section>

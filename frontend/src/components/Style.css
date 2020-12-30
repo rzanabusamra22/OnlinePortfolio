@@ -100,7 +100,7 @@ img {
     margin-bottom: .25rem;
 }
 
-/* ???? */
+
 /* Layout */
 .bd-grid{
     max-width: 1024px;
@@ -111,7 +111,7 @@ img {
     margin-left:var(--mb-2);
     margin-right: var(--mb-2);
 }
-/* ???? */
+
 .l-header{
     width:100%;
     position:fixed;
@@ -220,5 +220,47 @@ img {
     color: var(--first-color-lighten);
 }
 
+/* About */
+.about__container{
+    row-gap: 2rem;
+}
 
+.about__data{
+    text-align: center;
+}
 
+.about__description{
+    margin-bottom: var(--mb-2);
+}
+
+.about__information{
+    margin-bottom: var(--mb-3);
+}
+
+.about__information-title{
+    font-size: var(--h3-font-size);
+    color: var(--first-color-dark);
+    margin-bottom: var(--mb-2);
+}
+
+.about__information-data{
+    display: flex;
+    align-items: center;
+    padding-left: 1.5rem;
+    margin-bottom: var(--mb-1);
+}
+
+.about__information-icon{
+    font-size: 1.5rem;
+    color:var(--first-color);
+    margin-right: var(--mb-4);
+}
+
+.about__information-subtitle{
+    display: block;
+    font-weight: var(--font-semi-bold);
+}
+
+.about__information-subtitle-small{
+    font-size: var(--small-font-size);
+}
