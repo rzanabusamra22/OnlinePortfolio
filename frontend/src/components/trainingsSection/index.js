@@ -21,7 +21,7 @@ const traningsSection = () => {
                              </div>
                              <div>
                                  <h3 class="education__race">Mechatronincs Engineering</h3>
-                                 <span class="education__university"></span>
+                                 <span class="education__spec">Nablus - Palestine Territory</span>
                              </div>
                          </div>
                          {/*  */}
@@ -36,7 +36,7 @@ const traningsSection = () => {
                              </div>
                              <div>
                                  <h3 class="education__race">Science Section</h3>
-                                 <span class="education__university">UAE</span>
+                                 <span class="education__spec">UAE</span>
                              </div>
                          </div>
                      </div>

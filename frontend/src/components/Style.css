@@ -311,3 +311,31 @@ img {
     width:95%;
 }
 /* training and education */
+
+.education__container{
+    row-gap: 2rem;
+}
+
+.education__contant{
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+}
+
+.education__year, .education__race{
+    font-size: var(--h3-font-size);
+    margin-bottom: .25rem;
+}
+
+.education__university, .education__spec{
+    display: block;
+    font-size: var(--smaller-font-size);
+}
+
+.education__year, .education__university{
+    text-align: right;
+}
+
+.education__time{
+    padding:0 1rem;
+    justify-self: center;
+}
