@@ -41,6 +41,9 @@ const traningsSection = () => {
                          </div>
                      </div>
                  </section>
+                 <section>
+                     
+                 </section>
             </main>
         </>
     )
