@@ -1,5 +1,4 @@
 import React from 'react'
-import {InfoContainer,InfoContainer1} from './trainingsElements'
 import '../Style.css'
 
 const traningsSection = () => {
