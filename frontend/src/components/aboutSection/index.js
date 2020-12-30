@@ -6,6 +6,8 @@ const aboutSection = () => {
         <>
             <main class='l-main' id='about'>
                  <section class='about section' >
+                     <br></br>
+                     <br></br>
                          <span class='section-subtitle'>My intro</span>
                          <h2 class="section-title">About Me</h2>
                          <div class="about__container bd-grid">
