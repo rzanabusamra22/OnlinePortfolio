@@ -189,7 +189,8 @@ img {
 }
 
 .home__social-link :hover{
-    background-color: var(--first-color-dark);
+    background-color: var(--first-color-lighten);
+    color: var(--first-color);
 }
 
 .home__button{
@@ -366,3 +367,96 @@ img {
     background-color: var(--first-color);
     transform: translate(5px, -4px);
 }
+
+
+/* projects Section */
+
+/* Footer Section */
+.footer{
+    background-color: #000;
+    color:var(--first-color-lighten);
+    text-align: center;
+    align-items: center;
+}
+
+.footer__title{
+    font-size: var(--h1-font-size);
+    margin-bottom: var(--mb-2);
+   
+}
+
+.footer__description{
+    margin-bottom: var(--mb-2);
+    
+}
+
+.footer__social{
+    margin-bottom: 3rem;
+}
+
+.footer__link{
+    display: inline-flex;
+    background-color: var(--first-color);
+    color: var(--first-color-lighten);
+    font-size: 1.1rem;
+    border-radius: 50%;
+    padding:.40rem;
+    margin:0 var(--mb-1);
+    transition: .3s;
+}
+
+.footer__link:hover{
+    background-color: var(--first-color-lighten);
+    color: var(--first-color);
+}
+
+.footer__copy{
+    font-size: var(--smaller-font-size);
+    color: var(--first-color-lighten)
+}
+
+/* Media Quaries */
+@media screen and (min-width:768px){
+    .home__button{
+        width:initial;
+    }
+    .nav__menu{
+        width:var(--nav-width);
+    }
+    /* .Services__container */
+    .about__container,
+    .skills__container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .about__data{
+        text-align: initial;
+    }
+    .about__description{
+        margin-bottom: var(--mb-5);
+    }
+    
+    .about__information{
+        padding-left: 4rem;
+    }
+    .education__time{
+        padding: 0 2rem;
+    }
+  /* Look at mee ?? */
+    .project__container{
+        background-color: var(--first-color);
+        grid-template-columns: 2fr 1.2fr;
+        padding:0 2rem;
+        border-radius: .5rem;
+    }
+    
+    .project__data{
+        padding: 3rem 0;
+    }
+
+    .project__title,.project__data{
+        text-align: initial;
+    }
+
+
+}
+

@@ -15,5 +15,5 @@ export const homeObjThree = {
   };
   
 export const homeObjFour = {
-    id:"contact"
+    id:"projects"
   };
