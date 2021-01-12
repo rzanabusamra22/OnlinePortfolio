@@ -7,7 +7,7 @@ const contactSection = ({id}) => {
         <>
             <main class='l-main' id='contact'>
                  <section class='contact' >
-                   contact
+                   contact 123
                  </section>
             </main>
         </>
