@@ -425,7 +425,8 @@ img {
     }
     /* .Services__container */
     .about__container,
-    .skills__container{
+    .skills__container
+    .works__container{
         grid-template-columns: repeat(2,1fr);
     }
     .about__data{
@@ -453,8 +454,14 @@ img {
         padding: 3rem 0;
     }
 
-    .project__title,.project__data{
+    .project__title,
+    .project__data{
         text-align: initial;
+    }
+
+    .project__img{
+        width: 230px;
+        align-self: flex-end;
     }
 
 
