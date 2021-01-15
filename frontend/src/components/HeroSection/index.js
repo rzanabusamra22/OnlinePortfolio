@@ -27,22 +27,3 @@ const HeroSection = () => {
 }
 
 export default HeroSection
-
-
-{/* <HeroBg>
-</HeroBg> */}
-{/* <HeroContent>
-    {/* Your Picture */}
-    //  <HeroH1>
-    //   Razan Abusamra 
-    //  </HeroH1>
-    //  <HeroP>
-    //   Fulltime Dreamer 
-    //  </HeroP> */}
-    {/* We need buttons for linkedin - github  */}
-
-    {/* Download my resume button  */}
-    {/* <HeroBtnWrapper>
-       
-    </HeroBtnWrapper> */}
-// </HeroContent>

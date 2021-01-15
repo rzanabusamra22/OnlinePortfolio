@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Style.css'
 
-const traningsSection = () => {
+const traningsSection = ({id}) => {
     return (
         <>
             <main class='l-main' id='trainings'>
@@ -42,7 +42,6 @@ const traningsSection = () => {
                      </div>
                  </section>
                  <section>
-                     
                  </section>
             </main>
         </>

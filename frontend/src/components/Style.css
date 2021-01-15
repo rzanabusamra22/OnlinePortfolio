@@ -1,3 +1,4 @@
+/* https://iconify.design/icon-sets/?query=facebook */
 :root{
     /* Fixme */
     /* was 3rem */
@@ -370,6 +371,48 @@ img {
 
 
 /* projects Section */
+.works__container{
+    justify-items: center;
+    row-gap: 2rem;
+}
+
+.works__img{
+    position: relative;
+    overflow: hidden;
+    border-radius: .5rem;
+}
+
+.works__data{
+    position:absolute;
+    bottom:-100%;
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(204,75,44,.7);
+    border-radius: .5rem;
+    transition: .3s;
+}
+.works__link{
+    display: inline-flex;
+    font-size: 1.5rem;
+    background-color: var(--first-color-lighten);
+    color:var(--first-color);
+    padding:.25rem;
+    border-radius: .25rem;
+    margin-bottom: var(--mb-2);
+}
+.works__title{
+    font-size: var(--h2-font-size);
+    color:var(--first-color-lighten);
+}
+.works__img:hover .works__data{
+   bottom: 0;
+}
+
+
 
 /* Footer Section */
 .footer{
@@ -415,7 +458,7 @@ img {
     color: var(--first-color-lighten)
 }
 
-/* Media Quaries */
+/* Media Quaries
 @media screen and (min-width:768px){
     .home__button{
         width:initial;
@@ -424,7 +467,7 @@ img {
         width:var(--nav-width);
     }
     /* .Services__container */
-    .about__container,
+    /* .about__container,
     .skills__container
     .works__container{
         grid-template-columns: repeat(2,1fr);
@@ -443,7 +486,7 @@ img {
         padding: 0 2rem;
     }
   /* Look at mee ?? */
-    .project__container{
+    /* .project__container{
         background-color: var(--first-color);
         grid-template-columns: 2fr 1.2fr;
         padding:0 2rem;
@@ -465,5 +508,5 @@ img {
     }
 
 
-}
+}   */
 
