@@ -165,7 +165,12 @@ img {
 .home__profession{
     font-size: var(--small-font-size);
     color:var(--first-color-dark);
-    margin-bottom: var(--mb-5);
+    margin-bottom: var(--mb-1);
+}
+.home__profession1{
+    font-size: var(--small-font-size);
+    color:var(--first-color-dark);
+    margin-bottom: var(--mb-4);
 }
 
 .home__social{
