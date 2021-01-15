@@ -44,10 +44,6 @@ const skillsSection = ({id}) => {
                      </div>
                  </section>
             </main>
-                 <section class='skills section' >
-                     <span class="section-subtitle"></span>
-                     <h2 class="section-title">Technologies That I Used</h2>
-                 </section>
         </>
     )
 }

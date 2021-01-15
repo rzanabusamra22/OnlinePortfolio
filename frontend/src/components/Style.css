@@ -98,7 +98,6 @@ img {
     color: var(--first-color-darken);
     text-align: center;
     font-weight: var(--font-bold);
-
     margin-bottom: .25rem;
 }
 
@@ -132,6 +131,7 @@ img {
     position: relative;
     z-index: 1;
 }
+
 
 /* HomeSection */
 .home__container{
@@ -270,7 +270,9 @@ img {
 .skills__container{
     row-gap: 2rem;
 }
-
+.skills__container1{
+    row-gap: 2rem;
+}
 .skills__subtitle{
     font-size: var(--h3-font-size);
     color: var(--first-color-dark);
