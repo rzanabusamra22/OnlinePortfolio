@@ -4,7 +4,6 @@ import '../Style.css'
 const projectSection = ({id}) => {
     return (
         <>
-        {/* id='projects' */}
             <main class='l-main' id='projects'>
                  <section class='works section' >
                     <span class='section-subtitle'>My Portfolio</span>
@@ -27,9 +26,9 @@ const projectSection = ({id}) => {
                             </div>
                         </div>
                         {/* Kiddo */}
-                           {/* <div class="works__img">
-                            <img src="https://i.imgur.com/JQjqTSk.png"/>
-                            <div class="works__data">
+                        {/* <div class="works__img">
+                            <img src=""/>
+                            <div class="works__data1">
                                 <a href='https://github.com/rzanabusamra22/Kiddo' class="works__link"><span class="iconify" data-icon="bi:link-45deg" data-inline="false"></span></a>
                                 <span class='works__title'>Kiddo</span>
                             </div>

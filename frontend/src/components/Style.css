@@ -374,6 +374,7 @@ img {
 .works__container{
     justify-items: center;
     row-gap: 2rem;
+    grid-template-columns: repeat(2,1fr);
 }
 
 .works__img{
@@ -395,6 +396,7 @@ img {
     border-radius: .5rem;
     transition: .3s;
 }
+
 .works__link{
     display: inline-flex;
     font-size: 1.5rem;
@@ -458,55 +460,56 @@ img {
     color: var(--first-color-lighten)
 }
 
-/* Media Quaries
+/* Media Quaries */
 @media screen and (min-width:768px){
+    body{
+        margin:0;
+    }
+
     .home__button{
         width:initial;
     }
-    .nav__menu{
-        width:var(--nav-width);
-    }
-    /* .Services__container */
-    /* .about__container,
-    .skills__container
-    .works__container{
+    .about__container,
+    .skills__container{
         grid-template-columns: repeat(2,1fr);
     }
-    .about__data{
-        text-align: initial;
-    }
-    .about__description{
-        margin-bottom: var(--mb-5);
-    }
+
     
-    .about__information{
-        padding-left: 4rem;
+
+    .services__container,
+    .works__container{
+        grid-template-columns: repeat(3,1fr);
     }
+
     .education__time{
         padding: 0 2rem;
     }
-  /* Look at mee ?? */
-    /* .project__container{
-        background-color: var(--first-color);
-        grid-template-columns: 2fr 1.2fr;
-        padding:0 2rem;
-        border-radius: .5rem;
+
+    .footer{
+        background-color: #000;
+        padding: 3rem;
+        text-align: center;
+        align-items: center;
+        
     }
     
-    .project__data{
-        padding: 3rem 0;
+    .footer__container{
+        margin-left: 13rem;
+    }
+}  
+
+@media screen and (min-width:1024px){
+    body{
+        margin:0;
     }
 
-    .project__title,
-    .project__data{
-        text-align: initial;
+    .home__container{
+        height: 100vh;
     }
 
-    .project__img{
-        width: 230px;
-        align-self: flex-end;
+    .services__container,
+    .works__container{
+        grid-template-columns: repeat(3,1fr);
     }
-
-
-}   */
+}
 
