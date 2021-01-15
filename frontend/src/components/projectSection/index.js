@@ -26,13 +26,13 @@ const projectSection = ({id}) => {
                             </div>
                         </div>
                         {/* Kiddo */}
-                        {/* <div class="works__img">
-                            <img src=""/>
-                            <div class="works__data1">
+                        <div class="works__img">
+                            <img src="https://i.imgur.com/zY6LePt.png"/>
+                            <div class="works__data">
                                 <a href='https://github.com/rzanabusamra22/Kiddo' class="works__link"><span class="iconify" data-icon="bi:link-45deg" data-inline="false"></span></a>
                                 <span class='works__title'>Kiddo</span>
                             </div>
-                        </div> */}
+                        </div>
                     </div>
                  </section>
             </main>
