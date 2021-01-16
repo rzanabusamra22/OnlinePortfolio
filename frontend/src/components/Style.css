@@ -474,8 +474,7 @@ img {
     .home__button{
         width:initial;
     }
-    .about__container,
-    .skills__container{
+    .about__container{
         grid-template-columns: repeat(2,1fr);
     }
 

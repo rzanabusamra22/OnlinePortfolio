@@ -13,7 +13,8 @@ const aboutSection = () => {
                          <div class="about__container bd-grid">
                              <div class="about__data">
                                  <p class="about__description">
-                                    about statment about statment about statment about statment about statment about statment about statment about statment about statment about statment about statment about statment about statment about statment about statment about statment 
+                                 Self-motivated developer with knowledge and proficiency in JavaScript, HTML, CSS, and mobile responsive website development.
+                                 Hard-working individual with strong ability to communicate and work in a team effectively. Writes code as tidy as my personal planner.Hoping to share great skills, expertise, and experiences. 
                                  </p>
                              </div>
                              <div class="about__information">
@@ -37,11 +38,11 @@ const aboutSection = () => {
                                     <div class="about__information-data">
                                         <i class="about__information-icon"><span class="iconify" data-icon="grommet-icons:location-pin" data-inline="false"></span></i> 
                                         <div>
-                                            <span class="about__information-subtitle">Year:  </span>
-                                            <span class="about__information-subtitle-small">Experience Desription1</span>
+                                            <span class="about__information-subtitle">6 months</span>
+                                            <span class="about__information-subtitle-small">Self Learning projects</span>
                                         </div>
                                     </div>
-                                    <div class="about__information-data">
+                                    {/* <div class="about__information-data">
                                         <i class="about__information-icon"><span class="iconify" data-icon="grommet-icons:location-pin" data-inline="false"></span></i> 
                                         <div>
                                             <span class="about__information-subtitle">Year:  </span>
@@ -55,8 +56,7 @@ const aboutSection = () => {
                                             <span class="about__information-subtitle">Year:  </span>
                                             <span class="about__information-subtitle-small">Experience Desription3</span>
                                         </div>
-                                    </div>
-                                  
+                                    </div> */}
                                  </div>
                              </div>
                          </div>
