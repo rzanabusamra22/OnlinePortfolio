@@ -39,6 +39,18 @@ const skillsSection = ({id}) => {
                              </div>
                          </div>
                      </div>
+                     <br></br>
+                     {/* BACKEND */}
+                     <div class="skills__container bd-grid">
+                         <div class="skills__content">
+                             <h3 class="skills__subtitle">Backend</h3>
+                             <div class="skills__data">
+                                 <span class="skills_name">NODE.JS</span>
+                                 <span class="skills_number">45%</span>
+                                 <span class="skills_bar skills__node"></span>
+                             </div>
+                         </div>
+                     </div>
                  </section>
             </main>
         </>

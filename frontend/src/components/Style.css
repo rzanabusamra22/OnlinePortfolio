@@ -313,6 +313,10 @@ img {
 .skills__angular{
     width:60%;
 }
+
+.skills__node{
+    width:45%;
+}
 /* training and education */
 
 .education__container{
