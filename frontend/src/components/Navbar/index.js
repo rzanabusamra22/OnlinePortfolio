@@ -23,7 +23,7 @@ const Navbar = ({toggle}) => {
                       </NavItem>
                         {/*Trainings*/}
                       <NavItem>
-                          <NavLinks to="trainings">Education and Trainings</NavLinks>
+                          <NavLinks to="education">Education</NavLinks>
                       </NavItem>
                         {/*Contact*/}
                       <NavItem>

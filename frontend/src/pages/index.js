@@ -6,7 +6,7 @@ import Footer from '../components/FooterSection/index';
 import HeroSection from '../components/HeroSection/index'
 import AboutSection from '../components/aboutSection/index'
 import SkillsSection from '../components/skillsSection/index'
-import TrainingsSection from '../components/trainingsSection/index'
+import EducationSection from '../components/educationSection/index'
 import ProjectSection from '../components/projectSection/index'
 
 import {homeObj,homeObjOne,homeObjTwo,homeObjThree,homeObjFour} from '../components/Scroll'
@@ -24,7 +24,7 @@ const Home = () => {
          <HeroSection {...homeObj}/>
          <AboutSection {...homeObjOne}/>
          <SkillsSection {...homeObjTwo}/>
-         <TrainingsSection {...homeObjThree}/>
+         <EducationSection {...homeObjThree}/>
          <ProjectSection  {...homeObjFour}/>
          <Footer/>
         </>

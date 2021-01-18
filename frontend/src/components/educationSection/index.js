@@ -1,28 +1,28 @@
 import React from 'react'
 import '../Style.css'
 
-const traningsSection = ({id}) => {
+const educationSection = ({id}) => {
     return (
         <>
-            <main class='l-main' id='trainings'>
+            <main class='l-main' id='education'>
                  <section class='trainings' >
-                     <span class="section-subtitle">Qualifications</span>
+                     {/* <span class="section-subtitle">Qualifications</span> */}
                      <h2 class="section-title">My Education</h2>
 
                      <div class="education__container bd-grid">
                          {/* RBK */}
                          <div class="education__contant">
                              <div>
-                                 <h3 class="education__year">2020 - 6 months </h3>
-                                 <span class="education__university">RBK: ReBootKamp</span>
+                                 <h3 class="education__year">2020 August - 2021 January</h3>
+                                 <span class="education__university">RBK: ReBootKamp - PLUS West Bank Cohort 1</span>
                              </div>
                              <div class="education__time">
                                  <span class="education__rounder"></span>
                                  <span class="education__line"></span>
                              </div>
                              <div>
-                                 <h3 class="education__race">Junior Trainee-Student</h3>
-                                 <span class="education__spec">Nablus - Palestine Territory - Online(Remotely) </span>
+                                 <h3 class="education__race">Junior Trainee</h3>
+                                 <span class="education__spec">Online(Remotely)</span>
                              </div>
                          </div>
                          {/* University */}
@@ -40,21 +40,6 @@ const traningsSection = ({id}) => {
                                  <span class="education__spec">Nablus - Palestine Territory</span>
                              </div>
                          </div>
-                         {/* School */}
-                         <div class="education__contant">
-                             <div>
-                                 <h3 class="education__year">2010-2013</h3>
-                                 <span class="education__university"></span>
-                             </div>
-                             <div class="education__time">
-                                 <span class="education__rounder"></span>
-                                 <span class="education__line"></span>
-                             </div>
-                             <div>
-                                 <h3 class="education__race">High School - Science Section</h3>
-                                 <span class="education__spec">Dubai - UAE</span>
-                             </div>
-                         </div>
                      </div>
                  </section>
             </main>
@@ -62,4 +47,4 @@ const traningsSection = ({id}) => {
     )
 }
 
-export default traningsSection
+export default educationSection
