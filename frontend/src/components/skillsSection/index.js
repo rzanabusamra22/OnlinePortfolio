@@ -6,7 +6,7 @@ const skillsSection = ({id}) => {
         <>
             <main class='l-main' id='skills'>
                  <section class='skills section' >
-                     <span class="section-subtitle">Why choose Me</span>
+                     {/* <span class="section-subtitle">Why choose Me</span> */}
                      <h2 class="section-title">My Expertise Area</h2>
                      <div class="skills__container bd-grid">
                          <div class="skills__content">
