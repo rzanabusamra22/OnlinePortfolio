@@ -19,7 +19,7 @@ const HeroSection = () => {
                                   <a href='https://www.linkedin.com/in/razan-abu-samra/' class='home__social-link'><span class="iconify" data-icon="bx-bxl-linkedin" data-inline="false"></span></a>
                                   <a href='https://github.com/rzanabusamra22' class='home__social-link'><span class="iconify" data-icon="teenyicons:github-outline" data-inline="false"></span></a>
                               </div>
-                               <a href='https://docs.google.com/document/d/1rPufxWROWqbSfvy6m9dZCLc_iZuWTDxxzHrM7N46cpo/edit?usp=sharing' download='' class='button'>Resume</a>
+                               <a href='https://drive.google.com/file/d/1TrpOSXdfYDM-GPWGE4w4BkWS3fGIxanW/view?usp=sharing' download='' class='button'>Resume</a>
                           </div>
                       </div>
                  </section>

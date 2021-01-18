@@ -16,12 +16,12 @@
     --first-color-light:#eae7e6;
     --first-color-lighten:#fffafa;
     /* fontsize */
-    --h1-font-size: 1.5rem;
-    --h2-font-size: 1.25rem;
-    --h3-font-size: 1rem;
-    --normal-font-size: .938rem;
-    --small-font-size: .813rem;
-    --smaller-font-size: .75rem;
+    --h1-font-size: 1.75rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1.188rem;
+    --small-font-size: 1.063rem;
+    --smaller-font-size: 1rem;
     /* margin */
     --mb-1:.5rem;
     --mb-2:1rem;
