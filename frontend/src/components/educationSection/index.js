@@ -5,7 +5,7 @@ const educationSection = ({id}) => {
     return (
         <>
             <main class='l-main' id='education'>
-                 <section class='trainings' >
+                 <section class='education' >
                      {/* <span class="section-subtitle">Qualifications</span> */}
                      <h2 class="section-title">My Education</h2>
 
