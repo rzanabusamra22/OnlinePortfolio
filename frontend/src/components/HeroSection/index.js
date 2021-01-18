@@ -13,8 +13,10 @@ const HeroSection = () => {
                                   </img>
                               </div>
                               <h1 class='home__title'>Razan Abusamra</h1>
+                              <br></br>
+                              <span class='section-subtitle'>Front-end Developer</span>
                               <span class='home__profession'>Fulltime Dreamer & Achiever</span>
-                              <span class='home__profession1'>Front-end Developer</span>
+                              <br></br>
                               <div class='home__social'>
                                   <a href='https://www.linkedin.com/in/razan-abu-samra/' class='home__social-link'><span class="iconify" data-icon="bx-bxl-linkedin" data-inline="false"></span></a>
                                   <a href='https://github.com/rzanabusamra22' class='home__social-link'><span class="iconify" data-icon="teenyicons:github-outline" data-inline="false"></span></a>
