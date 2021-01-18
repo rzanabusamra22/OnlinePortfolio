@@ -9,6 +9,7 @@ const aboutSection = () => {
                      <br></br>
                      <br></br>
                          {/* <span class='section-subtitle'>My intro</span> */}
+                         <img class="about__img" src="https://i.imgur.com/mdH4KkS.png"></img>
                          <h2 class="section-title">About Me</h2>
                          <div class="about__container bd-grid">
                              <div class="about__data">
@@ -16,7 +17,6 @@ const aboutSection = () => {
                                  Self-motivated developer with knowledge and proficiency in JavaScript, HTML, CSS, and mobile responsive website development.
                                  Hard-working individual with strong ability to communicate and work in a team effectively. Writes code as tidy as my personal planner.Hoping to share great skills, expertise, and experiences. 
                                  </p>
-                                 <img class="about__img" src="https://i.imgur.com/mdH4KkS.png"></img>
                              </div>
                              <div class="about__information">
                                  <h3 class="about__information-title">Information</h3>

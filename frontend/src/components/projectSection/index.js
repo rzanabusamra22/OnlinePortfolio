@@ -7,6 +7,7 @@ const projectSection = ({id}) => {
             <main class='l-main' id='projects'>
                  <section class='works section' >
                     {/* <span class='section-subtitle'>My Portfolio</span> */}
+                    <img class="about__img" src="https://i.imgur.com/lT7F9Yy.png"></img>
                     <h2 class="section-title">Recent Work</h2>
                     <div class="works__container bd-grid">
                         {/*LafLefni*/}

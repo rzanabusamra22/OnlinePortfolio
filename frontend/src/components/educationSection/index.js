@@ -7,6 +7,7 @@ const educationSection = ({id}) => {
             <main class='l-main' id='education'>
                  <section class='education' >
                      {/* <span class="section-subtitle">Qualifications</span> */}
+                     <img class="about__img" src="https://i.imgur.com/HhS6qMY.png"></img>
                      <h2 class="section-title">My Education</h2>
 
                      <div class="education__container bd-grid">
