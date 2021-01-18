@@ -30,9 +30,9 @@ const Navbar = ({toggle}) => {
                           <NavLinks to="education">Education</NavLinks>
                       </NavItem>
                       {/*Achievement*/}
-                      <NavItem>
-                          <NavLinks to="achievement">Achievement</NavLinks>
-                      </NavItem>
+                      {/* <NavItem>
+                          <NavLinks to="achievement">Achievements</NavLinks>
+                      </NavItem> */}
                     </NavMenu>
                     
                </NavbarContainer>

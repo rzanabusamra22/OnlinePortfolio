@@ -16,12 +16,12 @@
     --first-color-light:#eae7e6;
     --first-color-lighten:#fffafa;
     /* fontsize */
-    --h1-font-size: 1.75rem;
-    --h2-font-size: 1.5rem;
-    --h3-font-size: 1.25rem;
-    --normal-font-size: 1.188rem;
-    --small-font-size: 1.063rem;
-    --smaller-font-size: 1rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1.0rem;
+    --normal-font-size: 1.163rem;
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
     /* margin */
     --mb-1:.5rem;
     --mb-2:1rem;
@@ -415,7 +415,6 @@ img {
 }
 
 
-
 /* Footer Section */
 .footer{
     background-color: #000;
@@ -474,7 +473,8 @@ img {
     }
 
     
-
+    
+    .card__container,
     .services__container,
     .works__container{
         grid-template-columns: repeat(3,1fr);
@@ -506,6 +506,7 @@ img {
         height: 100vh;
     }
 
+    .card__container,
     .services__container,
     .works__container{
         grid-template-columns: repeat(3,1fr);

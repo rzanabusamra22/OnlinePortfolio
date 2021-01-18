@@ -13,7 +13,7 @@ const educationSection = ({id}) => {
                          {/* RBK */}
                          <div class="education__contant">
                              <div>
-                                 <h3 class="education__year">2020 August - 2021 January</h3>
+                                 <h3 class="education__year">2020 AUG - 2021 JAN</h3>
                                  <span class="education__university">RBK: ReBootKamp - PLUS West Bank Cohort 1</span>
                              </div>
                              <div class="education__time">
@@ -21,8 +21,8 @@ const educationSection = ({id}) => {
                                  <span class="education__line"></span>
                              </div>
                              <div>
-                                 <h3 class="education__race">Junior Trainee</h3>
-                                 <span class="education__spec">Online (Remotely)</span>
+                                 <h3 class="education__race">Junior Full Stack Developer - Trainee</h3>
+                                 <span class="education__spec">Online(Remotely)</span>
                              </div>
                          </div>
                          {/* University */}
