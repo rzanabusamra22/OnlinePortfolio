@@ -51,7 +51,7 @@ body{
     margin: var(--header-height) 0 0 0;
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
-    background-color: var(--first-color-lighten);
+    background-color: white;
     color: var(--text-color);
     line-height: 1.6;
 }
@@ -80,6 +80,8 @@ img {
     height: auto;
     display: block;
 }
+
+
 /* class css */
 .section{
     padding: 4rem 0 2rem;
@@ -230,6 +232,11 @@ img {
     margin-bottom: var(--mb-2);
 }
 
+.about__img{
+    width:350px;
+    margin: 0 auto;
+}
+
 .about__information{
     margin-bottom: var(--mb-3);
 }
@@ -374,7 +381,7 @@ img {
 .works__container{
     justify-items: center;
     row-gap: 2rem;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(1,1fr);
 }
 
 .works__img{
@@ -472,7 +479,9 @@ img {
         grid-template-columns: repeat(2,1fr);
     }
 
-    
+    /* .home{
+        background-color: khaki;
+    } */
     
     .card__container,
     .services__container,
