@@ -24,8 +24,8 @@ const Home = () => {
          <HeroSection {...homeObj}/>
          <AboutSection {...homeObjOne}/>
          <SkillsSection {...homeObjTwo}/>
-         <EducationSection {...homeObjThree}/>
-         <ProjectSection  {...homeObjFour}/>
+         <ProjectSection  {...homeObjThree}/>
+         <EducationSection {...homeObjFour}/>
          <Footer/>
         </>
     )

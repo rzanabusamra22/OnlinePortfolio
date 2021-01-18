@@ -22,7 +22,7 @@ const educationSection = ({id}) => {
                              </div>
                              <div>
                                  <h3 class="education__race">Junior Trainee</h3>
-                                 <span class="education__spec">Online(Remotely)</span>
+                                 <span class="education__spec">Online (Remotely)</span>
                              </div>
                          </div>
                          {/* University */}

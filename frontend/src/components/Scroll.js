@@ -11,9 +11,9 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
-    id:"education"
+  id:"projects"
   };
   
 export const homeObjFour = {
-    id:"projects"
+    id:"education"
   };
