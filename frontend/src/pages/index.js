@@ -8,8 +8,9 @@ import AboutSection from '../components/aboutSection/index'
 import SkillsSection from '../components/skillsSection/index'
 import EducationSection from '../components/educationSection/index'
 import ProjectSection from '../components/projectSection/index'
+import AchievementSection from '../components/achievementSection/index'
 
-import {homeObj,homeObjOne,homeObjTwo,homeObjThree,homeObjFour} from '../components/Scroll'
+import {homeObj,homeObjOne,homeObjTwo,homeObjThree,homeObjFour,homeObjFive} from '../components/Scroll'
 
 const Home = () => {
     const [isOpen,setIsOpen] = useState(false);
@@ -26,6 +27,7 @@ const Home = () => {
          <SkillsSection {...homeObjTwo}/>
          <ProjectSection  {...homeObjThree}/>
          <EducationSection {...homeObjFour}/>
+         <AchievementSection {...homeObjFive}/>
          <Footer/>
         </>
     )

@@ -1,9 +1,9 @@
 export const homeObj = {
-    id:"home"
+  id:"home"
   };
 
 export const homeObjOne = {
-    id:"about"
+  id:"about"
   };
 
 export const homeObjTwo = {
@@ -15,5 +15,9 @@ export const homeObjThree = {
   };
   
 export const homeObjFour = {
-    id:"education"
+  id:"education"
+  };
+
+export const homeObjFive = {
+  id:"achievement"
   };

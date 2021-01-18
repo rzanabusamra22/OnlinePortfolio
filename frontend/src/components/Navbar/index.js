@@ -29,6 +29,10 @@ const Navbar = ({toggle}) => {
                       <NavItem>
                           <NavLinks to="education">Education</NavLinks>
                       </NavItem>
+                      {/*Achievement*/}
+                      <NavItem>
+                          <NavLinks to="achievement">Achievement</NavLinks>
+                      </NavItem>
                     </NavMenu>
                     
                </NavbarContainer>

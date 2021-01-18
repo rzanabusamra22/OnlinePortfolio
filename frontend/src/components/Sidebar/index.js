@@ -13,8 +13,8 @@ function Sidebar({isOpen,toggle}) {
                <SidebarLink to="skills" onClick={toggle}>Skills</SidebarLink>
                <SidebarLink to="projects" onClick={toggle}>Projects</SidebarLink>
                <SidebarLink to="education" onClick={toggle}>Education</SidebarLink>
+               <SidebarLink to="achievement" onClick={toggle}>Achievement</SidebarLink>
              </SidebarMenu>
-
            </SidebarWrapper>
         </SidebarContainer>
     )
