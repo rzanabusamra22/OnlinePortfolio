@@ -8,7 +8,7 @@ const aboutSection = () => {
                  <section class='about section' >
                      <br></br>
                      <br></br>
-                         <span class='section-subtitle'>My intro</span>
+                         {/* <span class='section-subtitle'>My intro</span> */}
                          <h2 class="section-title">About Me</h2>
                          <div class="about__container bd-grid">
                              <div class="about__data">
@@ -33,7 +33,8 @@ const aboutSection = () => {
                                      <i class="about__information-icon"><span class="iconify" data-icon="cil:envelope-letter" data-inline="false"></span></i> 
                                      <span>RzanAbusamra@gmail.com</span> 
                                  </div>
-                                 <div class="about__information">
+                                 {/*  Experience */}
+                                 {/* <div class="about__information">
                                  <h3 class="about__information-title">Experience</h3>
                                     <div class="about__information-data">
                                         <i class="about__information-icon"><span class="iconify" data-icon="grommet-icons:location-pin" data-inline="false"></span></i> 
@@ -42,7 +43,7 @@ const aboutSection = () => {
                                             <span class="about__information-subtitle-small">Self Learning projects</span>
                                         </div>
                                     </div>
-                                    {/* <div class="about__information-data">
+                                    <div class="about__information-data">
                                         <i class="about__information-icon"><span class="iconify" data-icon="grommet-icons:location-pin" data-inline="false"></span></i> 
                                         <div>
                                             <span class="about__information-subtitle">Year:  </span>
@@ -56,8 +57,8 @@ const aboutSection = () => {
                                             <span class="about__information-subtitle">Year:  </span>
                                             <span class="about__information-subtitle-small">Experience Desription3</span>
                                         </div>
-                                    </div> */}
-                                 </div>
+                                    </div>
+                                 </div> */}
                              </div>
                          </div>
                  </section>
